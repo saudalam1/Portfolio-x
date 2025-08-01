@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saud Alam - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+<body>
+  <section class="hero-section">
+    <div class="hero-container">
+      <p class="hero-intro">Hi, my name is</p>
+      <h1 class="hero-name gradient-text">Saud Alam.</h1>
+      <h1 class="hero-title">I create visually pleasing interfaces for the web.</h1>
+      <p class="hero-description">I'm a passionate Frontend web developer with hands-on experience in building web
+        applications using HTML & CSS with Bootstrap, Javascript, and Figma</p>
+      <p class="hero-availability">Currently available for freelance</p>
+    </div>
+  </section>
+
+
+
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <img src="sign.png" alt="">
+      </div>
+
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experince">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="resume-btn">
+        <a href="Cv. pdf .pdf" class="resume-link" target="_blank">Resume</a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <section class="about-us" id="about">
+    <div class="about-us-container">
+      <div class="about-us-content">
+        <div class="about-us-main">
+          <h1 class="about-us-title">About Me</h1>
+          <div class="about-us-hello">
+            <span class="about-us-hello-text">Hello <span class="about-us-emoji"
+                style="display:inline-block; animation: wave 1.2s infinite; transform-origin: 70% 70%;">👋</span></span>
+          </div>
+          <p class="about-us-text">
+            I’m <span class="about-us-highlight">Saud Alam</span>, a passionate Computer Science student at
+            Iqra University and an enthusiastic learner in the Saylani Mass IT Training Program. With a
+            strong foundation in software development, Ithrive on building impactful digital solutions and
+            mentoring others. Currently, I’m expanding my
+            expertise in Full-Stack Development and modern web technologies, always eager to take on new
+            challenges and
+            contribute to innovative projects.
+          </p>
+          <div class="about-us-tech">
+            <h2 class="about-us-tech-title">Technologies I’ve been working with recently:</h2>
+            <ul class="about-us-tech-list">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Figma</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>C</li>
+            </ul>
+          </div>
+        </div>
+        <div class="pfp">
+          <img src="WhatsApp Image 2025-07-30 at 14.52.29_098b2625.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="what-i-do">
+    <div class="what-i-do-container">
+
+      <div class="skills">
+        <h1>Frontend Development</h1>
+        <div class="skills-png">
+          <img src="html.png" alt="HTML5" class="html5">
+          <img src="css.png" alt="CSS3" class="css3">
+          <img src="js.png" alt="JavaScript" class="js">
+          <img src="bootstrap.png" alt="Bootstrap" class="bootstrap">
+          <img src="figma.png" alt="Figma" class="figma">
+          <img src="git.png" alt="Git" class="git">
+          <img src="github.png" alt="GitHub" class="github">
+          <img src="c.png" alt="C" class="c">
+        </div>
+        <div>
+          <ul>
+            <li>Creating beautiful, interactive web experiences using JavaScript, and modern CSS frameworks
+            </li>
+            <li>Developing responsive single-page applications</li>
+            <li>Bringing digital ideas to life through clean, modern web design and development</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="contact-section">
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+
+    <div class="contact-container">
+      <div class="contact-title">
+        <h2>Get In Touch</h2>
+        <p class="contact-subtitle">Ready to start your next project? Let's create something amazing together. I'm
+          always excited to work on new challenges!</p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>I'm currently available for freelance opportunities and would love to hear about your project. Whether you
+            need a complete website or just want to improve your existing one, I'm here to help!</p>
+
+          <div class="contact-methods">
+            <div class="contact-method" onclick="copyToClipboard('saudalam3579@gmail.com')">
+              <div class="contact-method-icon">📧</div>
+              <div class="contact-method-info">
+                <h4>Email</h4>
+                <p>saudalam3579@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-method" onclick="window.open('https://www.linkedin.com/in/saud-alam-246091277/', '_blank')">
+              <div class="contact-method-icon">💼</div>
+              <div class="contact-method-info">
+                <h4>LinkedIn</h4>
+                <p>Connect with me professionally</p>
+              </div>
+            </div>
+
+            <div class="contact-method" onclick="copyToClipboard('+1234567890')">
+              <div class="contact-method-icon">📱</div>
+              <div class="contact-method-info">
+                <h4>Phone</h4>
+                <p>+92311-2011747</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <div class="form-container">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <span class="btn-text">Send Message 🚀</span>
+              </button>
+
+              <div id="formMessage" class="message"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="cursor-shadow"></div>
+
+
+  <script src="index.js">
+  </script>
+</body>
+
+</html>
